@@ -6,6 +6,6 @@ ADD . /app
 
 WORKDIR /app
 
-#RUN pip install -r requirements.txt
+RUN pip install Flask twilio
 
 CMD ["python", "app.py"]
